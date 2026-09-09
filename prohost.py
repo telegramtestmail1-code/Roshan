@@ -50,10 +50,10 @@ TOKEN = os.getenv("BOT_TOKEN")
 if not TOKEN:
     raise RuntimeError("BOT_TOKEN is not set in environment variables")
 
-OWNER_ID = int(os.getenv("OWNER_ID", "8300072133"))
-ADMIN_ID = int(os.getenv("ADMIN_ID", "8300072133"))
-YOUR_USERNAME = os.getenv("YOUR_USERNAME", "REVENGEKING199")
-UPDATE_CHANNEL = os.getenv("UPDATE_CHANNEL", "FytResult")
+OWNER_ID = int(os.getenv("OWNER_ID", "8838805846"))
+ADMIN_ID = int(os.getenv("ADMIN_ID", "8838805846"))
+YOUR_USERNAME = os.getenv("YOUR_USERNAME", "@BHAGWANXD")
+UPDATE_CHANNEL = os.getenv("UPDATE_CHANNEL", "TCS_ALWAYS_ON_PEAK")
 
 # Limits from .env or defaults
 FREE_USER_LIMIT = int(os.getenv('FREE_USER_LIMIT', 2))
